@@ -5,3 +5,8 @@ Repositório contendo os códigos passados em sala de aula na disciplina optativ
 - OpenSCAD https://openscad.org/
 - Repetier host https://www.repetier.com/
 
+## OpenSCAD
+Criar os modelos 3D através de códigos.
+
+## Repetier host
+Pegar os modelos 3D e colocar em algo plano para imprimir na impressora 3D.
