@@ -18,6 +18,7 @@ Pegar os modelos 3D e colocar em algo plano para imprimir na impressora 3D.
         - Temperatura máxima da extrusora: 220º
 
     - Forma da impressora (o modelo 3D precisa caber dentro)
-        - Largura área impressão: (largura da caixa*2)+100
-        - Profundidade área impressão: (Profundidade da caixa*2)+100
-        - Altura área impressão: (Altura da caixa*2)+100
+        - Largura área impressão: 700
+        - Profundidade área impressão: 1200
+        - Altura área impressão: 550
+        Obs.: Valores podem ser alterados dependendo das mudanças no tamanho da caixa
