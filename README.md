@@ -21,4 +21,5 @@ Pegar os modelos 3D e colocar em algo plano para imprimir na impressora 3D.
         - Largura área impressão: 700
         - Profundidade área impressão: 1200
         - Altura área impressão: 550
+        
         Obs.: Valores podem ser alterados dependendo das mudanças no tamanho da caixa
