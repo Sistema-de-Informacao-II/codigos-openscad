@@ -17,9 +17,8 @@ Pegar os modelos 3D e colocar em algo plano para imprimir na impressora 3D.
         - Temperatura máxima da cama: 105
         - Temperatura máxima da extrusora: 240º
 
-    - Forma da impressora (o modelo 3D precisa caber dentro)
-        - Largura área impressão: 500
-        - Profundidade área impressão: 680
-        - Altura área impressão: 300
+    - Forma da impressora padrão (o modelo 3D precisa caber dentro)
+        - Largura área impressão: 220
+        - Profundidade área impressão: 220
+        - Altura área impressão: 250
         
-        Obs.: Valores podem ser alterados dependendo das mudanças no tamanho da caixa
