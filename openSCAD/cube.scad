@@ -1,8 +1,5 @@
-// largura = 440;
 largura = 25;
-// profundidade = 550;
 profundidade = 34;
-// altura = 440;
 altura = 23;
 
 parede = 2;
