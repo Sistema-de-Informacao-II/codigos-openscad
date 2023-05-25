@@ -14,9 +14,12 @@ Pegar os modelos 3D e colocar em algo plano para imprimir na impressora 3D.
 ### Instruções Repetier host
 - Config. Impressora (Ctrl+P)
     - Extrusoras
-        - Temperatura máxima da cama: 105
+        - Temperatura máxima da cama: 105º
         - Temperatura máxima da extrusora: 240º
-
+        
+        - Temperatura máxima da cama: 60º
+        - Temperatura máxima da extrusora: 210º 
+       
     - Forma da impressora padrão (o modelo 3D precisa caber dentro)
         - Largura área impressão: 220
         - Profundidade área impressão: 220
