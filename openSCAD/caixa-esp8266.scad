@@ -1,22 +1,18 @@
-// largura = 440;
-largura = 28;
-// profundidade = 550;
-profundidade = 37;
-// altura = 440;
-altura = 23;
-// 13/2 = 6.5-0.1
+largura = 26.3;
+profundidade = 35;
+altura = 20.5;
 parede = 2;
 
-profDHT = 17.5;   // prof real: 15.5
+profDHT = 18.5;   // prof real: 15.5
 largDHT = 14;   // larg real: 12
 
-altUSB = 10;
+altUSB = 9;
 largUSB = 14;
-profUSB = 9.5;
+profUSB = 9;
 
 // altura de Caixa teste
 alturaBaseCaixa = 11;
-locProfUSB = ((profundidade)/2)-3.7;
+locProfUSB = ((profundidade)/2)-3.4;
 locLargUSB = -0.5;
 // altura do USB para caixa original
 locAltUSB = ((altUSB-altura)/2)-0.1;
@@ -34,7 +30,7 @@ module caixa(){
 module tampa(){
     difference(){
         cube([profundidade+parede, largura+parede, parede], center=true);
-        translate([10.8,-0.5,0]) cube([profDHT, largDHT, 3], center=true);
+        translate([9.3,-0.5,0]) cube([profDHT, largDHT, 3], center=true);
         }
 }
 
@@ -58,12 +54,12 @@ module base(){
         translate([locProfUSB, locLargUSB, locBaseAltUSB2+1]) cube([profUSB, largUSB, altUSB], center=true); // abertura usb
     }
 }
-base();
+//translate([0,largura+3.5,-((altura/2)-1)]) base();
 
 // somente caixa
-// caixa();
+//caixa();
 // somente tampa
 // tampa();
 // tampa e caixa
 // translate([0,largura+3.5,-((altura/2)-1)]) tampa();
-// caixa();
+caixa();
